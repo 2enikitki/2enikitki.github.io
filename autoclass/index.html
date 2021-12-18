@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автошкола Автокласс Кемерово</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+ 
+    details > summary {
+        padding: 5px;
+        background-color: #212121;
+        color: #D1D1D1;
+        border: 1px #212121 solid;
+        cursor: pointer;
+        list-style: none;
+    }
+ 
+    details > div {
+        border: 1px #212121 solid;
+        padding: 10px;
+    }
+ 
+details[open] > summary {
+    color:#D1D1D1; 
+   background-color:#212121;
+}
+summary:before {
+   content: "+";
+   font-size: 20px;
+   font-weight: bold;
+   margin: -5px 5px 0 0;
+}
+ 
+details[open] summary:before {
+   content: "-";
+}
+</style>
+</head>
+<body>
+   <header class="header">
+       <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header_logo">
+                    <a href="#main" class="header_logo-link">
+                         <img src="./img/logo_small.png" alt="autoclass-logo" class="header_logo-pic">
+                    </a>
+                </div>
+                 <nav class="header__nav">
+                     <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#main" class="header__link js-scroll">Главная</a>
+                        </li>     
+                         <li class="header__item">
+                             <a href="#category__list" class="header__link js-scroll">Цены</a>
+                         </li>
+                         <li class="header__item">
+                             <a href="#instruction__static" class="header__link js-scroll">Инструкторы</a>
+                         </li>
+                         <li class="header__item">
+                             <a href="#footer__list" class="header__link js-scroll">Контакты</a>
+                         </li>      
+                     </ul>
+                 </nav>
+            </div> 
+       </div>
+       <hr class="hr-line" color="#787878">
+   </header>
+   <main class="main">
+       <section class="intro" id="main">
+           <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-1">
+                            <div class="t-line"></div>
+                            <h1 class="intro__title">         
+                                Обучим и поможем сдать на права в Кемерово с 1 раза за 2 месяца
+                            </h1>
+                            <p class="intro__subtitle">
+                                Оставь заявку и получи рассрочку без банка на весь период обучения за 0%
+                            </p>
+                            <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst">
+                                Записаться на обучение
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pic-1">
+                            <img src="./img/image 3.png" alt="Машина">
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <hr class="hr-line2" color="#787878">
+           <div class="intro__footer">
+               <div class="row">
+                    <div class="col-md-5">
+                        <p class="footer_text">Наш адрес:<br>Кемерово, пр. Ленина, 77Б</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="footer_text text_center">+7(3864)369-555<br>+7(3864)903-601</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="last">
+                            <ul class="soc">
+                                <li><a href="https://vk.com/club19525412" target="_blank" class="social"><i class="fa fa-vk"></i></a></li>
+                                <li><a href="https://www.instagram.com/autoklass42/" target="_blank" class="social"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+       <section class="plus__static">
+           <div class="plus__wrap">
+               <h2 class="pochemy-1">
+                Почему учатся на права у нас?
+               </h2>
+               <h3 class="static">
+                По статистике около 90% учеников<br>сдают экзамен в ГИБДД с первого раза
+               </h3>
+               <div class="plus__style">
+                    <ul class="plus__list">
+                        <img src="img/image 9.png" alt="галочка" class="img__2">
+                        <li class="plus__item">Учитесь уже сейчас, а платите потом.</li>
+                        <p class="plus-text">
+                            Оплата обучения в рассрочку 0% без банка. Первоначальный взнос составляет всего 2 000 рублей.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__2">
+                        <li class="plus__item">На экзамены вместе.</li>
+                        <p class="plus-text">
+                            Выезд на экзамен ГИБДД на машинах автошколы, сопровождение в ГИБДД сотрудником автошколы.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__2">
+                        <li class="plus__item">Без очереди на автодроме.</li>
+                        <p class="plus-text">
+                            У нас свой автодром, никаких простоев на уроках вождения. Оборудован знаками и светофорами, как в городе.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__2">
+                        <li class="plus__item">Всё честно.</li>
+                        <p class="plus-text">
+                            У нас нет скрытых платежей, всё обучение в комплекте. Получите налоговый вычет на обучение в течении года!
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__2">
+                        <li class="plus__item">Обучаем вождению с 2007 года.</li>
+                        <p class="plus-text">
+                            Одна из самых опытных автошкол города. Соответствуем всем государственным нормативам.
+                        </p>
+                    </ul>
+               </div>
+           </div>
+           <div class="plus__wrap"></div>
+       </section>
+       <section class="instruction__static" id="instruction__static"> 
+           <div class="instruction__wrap">
+            <h2 class="instruction__nashi">
+                Наши инструкторы
+               </h2>
+               <h3 class="ponyatno__1">
+                Вежливо и понятно объясняют тонкости управления<br>автомобилем. Опыт более 10 лет.
+               </h3>
+           </div>
+            <div class="instruction__style">
+                <div class="container">
+                    <div class="row row-contact">
+                        <div class="col-md-3">
+                            <div class="contact-cart">
+                                <img src="img/DSC02902.jpg" alt="Инструктор1" class="instruction__first">
+                                <h3 class="name__inst">
+                                    Ермолаев Олег
+                                </h3>
+                                <p class="staj__inst">
+                                    Стаж 21 год<br>Автомобиль Hyundai Solaris<br>(Н778ВО142)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-cart">
+                                <img src="img/image-01-03-21-11-31.jpg" alt="Инструктор2" class="instruction__first">
+                                <h3 class="name__inst">
+                                    Сухов Илья
+                                </h3>
+                                <p class="staj__inst">
+                                    Стаж 21 год<br>Автомобиль Hyundai Solaris<br>(Н778ВО142)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-cart">
+                                <img src="img/image-01-03-21-11-31.jpeg" alt="Инструктор3" class="instruction__first">
+                                <h3 class="name__inst">
+                                    Артюшин Сергей
+                                </h3>
+                                <p class="staj__inst">
+                                    Стаж 21 год<br>Автомобиль Hyundai Solaris<br>(Н778ВО142)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-cart">
+                                <img src="img/DSC02908.jpg" alt="Инструктор4" class="instruction__first">
+                                <h3 class="name__inst">
+                                    Колосницын Павел
+                                </h3>
+                                <p class="staj__inst">
+                                    Стаж 21 год<br>Автомобиль Hyundai Solaris<br>(Н778ВО142)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                                <div class="contact-cart">
+                                    <img src="img/DSC03215.jpg" alt="Инструктор5" class="instruction__first">
+                                    <h3 class="name__inst">
+                                        Зверев Константин
+                                    </h3>
+                                    <p class="staj__inst">
+                                        Стаж 13.5 лет<br>Автомобиль Hyundai Solaris<br>(У474ЕЕ142)
+                                    </p>
+                                    </div>
+                        </div>
+                            <div class="col-md-3">
+                                <div class="contact-cart">
+                                    <img src="img/image-01-03-21-11-31 (1).jpg" alt="Инструктор6" class="instruction__first">
+                                    <h3 class="name__inst">
+                                        Солошенко Виктор
+                                    </h3>
+                                    <p class="staj__inst">
+                                        Стаж 13 лет<br>Автомобиль Hyundai Solaris<br>(О569ЕО142)
+                                    </p>
+                                </div>
+                        </div>
+                            <div class="col-md-3">
+                                <div class="contact-cart">
+                                    <img src="img/DSC02925.jpg" alt="Инструктор7" class="instruction__first">
+                                    <h3 class="name__inst">
+                                        Канайкина Людмила
+                                    </h3>
+                                    <p class="staj__inst">
+                                        Педагог по теории
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+           <section class="kategoria__list">
+                <div class="stocks__wrap">
+                    <h2 class="stocks__main">
+                        Акции нашей автошколы
+                    </h2>
+                    <p class="stocks__secondary">
+                        Мы постоянно проводим выгодные акции для наших<br>учеников.
+                    </p>
+                    <ul class="text__main">
+                        <img src="img/image 9.png" alt="галочка" class="img__6">
+                        <li class="text__item">Коронавирус не помеха!</li>
+                        <p class="text__stocks">
+                            Дистанционное онлайн обучение.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__7">
+                        <p class="text__stocks">
+                            Дистанционная онлайн сдача внутреннего экзамена
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__8">
+                        <p class="text__stocks">
+                            На практические занятия по вождению инструктор заберет Вас в удобном для Вас месте (не придется пользоваться общественным транспортом).
+                        </p>
+                        <li class="text__item">Приведи друга</li>
+                        <p class="text__stocks">
+                            Приведи друга – приведи друга и получи бонус в размере 1 000₽
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__9">
+                        <p class="text__stocks">
+                            Учится вместе веселее и выгоднее - для компании от 2-х человек автошкола делает бонус.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__10">
+                        <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst2">
+                            Получить бонус
+                        </button>
+                        <img src="img/image 9.png" alt="галочка" class="img__11">
+                        <li class="text__item">Для пенсионеров</li>
+                        <p class="text__stocks">
+                            Учится никогда не поздно! Мы приглашаем на обучение пожилых людей без возрастных ограничений. Даже если новые знания даются с трудом, мы ждём вас! Водительское удостоверение после 80 лет — реальность.
+                        </p>
+                        <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst3">
+                            Начать обучение
+                        </button>
+                        <li class="text__item">Студентам</li>
+                        <p class="text__stocks">
+                            Вы студент? Предъявите студенческий билет и получите скидку 1 000 ₽ на обучение!
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__12">
+                        <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst2">
+                            Получить скидку
+                        </button>
+                        <li class="text__item">Своих не бросаем</li>
+                        <p class="text__stocks">
+                            Для тех кто не доучился , рассмотрим вариант обучения в индивидуальном порядке.
+                        </p>
+                        <img src="img/image 9.png" alt="галочка" class="img__13">
+                        <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst2">
+                            Продолжить обучение
+                        </button>
+                    </ul>
+                </div>
+           </section>
+          <section class="category__list">
+               <div class="category__wrap" id="category__list">
+                   <h2 class="caterory__name">
+                       Категории
+                   </h2>
+               </div>
+               <div class="category__card">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="offset-md-3">
+                                <h2 class="caterogy-name">
+                                    Категория А
+                                </h2>
+                                <p class="category__dicription__2">
+                                    Мотоцикл с рабочим объемом двигателя более 125 куб. см.
+                                </p>
+                                <p class="price">
+                                    21 000 ₽
+                                </p>
+                                <p class="practice">
+                                    Практика 18 часов<br>Теория 116 часов
+                                </p>
+                                <p class="practice2">
+                                    Сопровождение на<br>экзамен ГИБДД
+                                </p>
+                                <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst10">
+                                    Записаться
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="offset-md-3">
+                                <h2 class="caterogy-name">
+                                    Категория B<br>(МКПП)
+                                </h2>
+                                <p class="category__dicription">
+                                    Легковой автомобиль с механической коробкой переключения передач
+                                </p>
+                                <p class="price">
+                                    32 000 ₽
+                                </p>
+                                <p class="practice">
+                                    Практика 56 часов<br>Теория 134 часов
+                                </p>
+                                <p class="practice2">
+                                    Сопровождение на<br>экзамен ГИБДД
+                                </p>
+                                <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst10">
+                                    Записаться
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="offset-md-3">
+                                <h2 class="caterogy-name">
+                                    Категория B<br>(АКПП)
+                                </h2>
+                                <p class="category__dicription">
+                                    Легковой автомобиль с автоматической коробкой переключения передач
+                                </p>
+                                <p class="price">
+                                    32 000 ₽
+                                </p>
+                                <p class="practice">
+                                    Практика 54 часов<br>Теория 134 часов
+                                </p>
+                                <p class="practice2">
+                                    Сопровождение на<br>экзамен ГИБДД
+                                </p>
+                                <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst10">
+                                    Записаться
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="offset-md-3">
+                                <h2 class="caterogy-name">
+                                    Подготовка с<br>C на B
+                                </h2>
+                                <p class="category__dicription">
+                                    Легковой автомобиль с механической коробкой переключения передач
+                                </p>
+                                <p class="price">
+                                    20 000 ₽
+                                </p>
+                                <p class="practice">
+                                    Практика 24 часа<br>Теория 134 часов
+                                </p>
+                                <p class="practice2">
+                                    Сопровождение на<br>экзамен ГИБДД
+                                </p>
+                                <button onclick="location = 'https://www.instagram.com/autoklass42/';" target="_blank" type="button" class="btn btn-inst10">
+                                    Записаться
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+           </section>
+          <section class="payment__options">
+               <div class="payment__wrap">
+                   <h2 class="payment__name">
+                       Варианты оплаты
+                   </h2>
+                   <div class="payment__style">
+                        <ul class="payment__list">
+                            <img src="img/image 17.png" alt="1" class="img__23">
+                            <li class="payment__item">Наличный и безналичный расчёт</li>
+                            <img src="img/image 18.png" alt="2" class="img__22">
+                            <li class="payment__item">Материнский капитал</li>
+                            <p class="payment-text">
+                                Есть материнский капитал? Оплатите обучение официально! Обратитесь к менеджеру для дополнительной информации.
+                            </p>
+                            <img src="img/image 19.png" alt="3" class="img__22">
+                            <li class="payment__item">Возврат налога</li>
+                            <p class="payment-text">
+                                Мы даем документы для оформления возврата подоходного налога. Верните подоходный налог за обучение в размере 13% (например, за обучение на категорию В возврат составит 3 501₽).
+                            </p>
+                            <img src="img/image 20.png" alt="4" class="img__22">
+                            <li class="payment__item">Рассрочка</li>
+                            <p class="payment-text">
+                                Рассрочка на обучение до 12 месяцев.
+                            </p>
+                            <img src="img/image 21.png" alt="5" class="img__22">
+                            <li class="payment__item">Банковский кредит</li>
+                            <p class="payment-text">
+                                Можно оформить в филиале автошколы.
+                            </p>
+                        </ul>
+                   </div>
+               </div>
+           </section>
+           <section>
+               <div class="back_back">
+                    <div class="cardos">
+                        <div class="vod">
+                            <b>Водительское удостоверение</b>
+                            <div class="cards">
+                                <ul>
+                                    <b> Что входит в обучение?</b> 
+                                    <li>Рассрочка оплаты</li>
+                                    <li>Продолжительность ~ от 2 мес.</li>
+                                    <li>Внутренний экзамен бесплатно</li>
+                                    <li>Теория в классе</li>
+                                    <li>Занятия на автодроме с ГСМ </li>
+                                    <li>Проедем по городу 1000 км</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </section>
+           <section class="knopki">
+                <div class="questions">
+                        <div>
+                            <h2>Вопросы</h2>
+                        </div>
+                        <div>
+                        <p>Остались вопросы? <br>Задавайте их по телефону прямо сейчас!</p>
+                        </div>
+                        <div>
+                            <p><b>+7 904 992-13-77</b></p>
+                        </div>
+                        </div>
+                        <div class="text__text_text">
+                            <details>
+                                <p><summary>
+                                    <b>Как проходит обучение?</b>
+                                    </summary>
+                                <p>Обучение состоит из 2-х курсов :</p> 
+                                <p><b>Теоретические занятия.</b> Включает в себя:
+                                <br>— Лекции по правилам дорожного движения.</p>
+                                <p><b>Практические занятия.</b> Включает в себя :
+                                <br>— Вождение в городе.
+                                <br>— Вождение на автодроме.</p>  
+                                <p>После того, как занятия будут закончены, вам предстоит сдать "внутренние" экзамены, которые будут состоять из :</p>    
+                                <p>1. <b>Экзамены по правилам дорожного движения</b> (обычно проводится в "собственном" компьютерном классе).</p>
+                                <p>2. <b>Экзамен по вождению</b> (проводится на площадке сходной с той, что в ГИБДД, включает 5 обязательных приемов вождения (упражнений).</p>
+                                <p>Затем, после успешной сдачи "внутренних" экзаменов, вы будете <b>допущены до основных, в ГИБДД.</b> Будет состоять из 3-х этапов :</p>
+                                <p><b>1. Теория</b> ( будет проходить в специальном компьютерном классе, билет включает 20 вопросов на проверку знаний по ПДД, у вас будет 20 минут на ответ и возможность допустить 2 ошибки, стоит отметить, что вопросы будут те же что и при сдаче в автошколе, но в другом сочетании в билетах ).</p>         
+                                <b>2. Обязательные упражнения на площадке</b> 5 упражнений:
+                                <br>— параллельная парковка задним ходом
+                                <br>— разворот в ограниченном пространстве
+                                <br>— поворот 90°
+                                <br>— упражнение бокс «гараж»
+                                <br>— упражнение эстакада «горка»             
+                                <br><p><b>3. Вождение в городе</b> (происходит по утвержденным ГИБДД маршрутам).
+                                Имейте в виду, достаточно набрать 5 штрафных баллов и вы не сдали, поэтому, нужно со всей серьезностью отнестись к экзаменам в ГИБДД.</p>
+                                </details>
+                                <details>
+                                    <summary>
+                                    <b>Сколько действуют документы после обучения?</b>
+                                    </summary>
+                                    <br><p>Документы, выданные автошколой по окончании обучения, не имеют срока давности, а сдача экзаменов на получение водительских прав не будет ограничена количеством попыток, но следует помнить, что все три этапа (теория, вождение на площадке и в городе ) должны быть сданы в течении 6-ти месяцев, иначе все экзамены придется сдавать заново.</p>
+                                </details>   
+                                <details>
+                                    <summary>
+                                    <b>Что такое автотренажёр?</b>
+                                    </summary>
+                                        <br><p>Иногда водителю для принятия решения: свернуть или остановиться, чтобы избежать столкновения с другим автомобилем, — даётся всего доля секунды. При скорости в 80 км/час всего за одну секунду машина преодолевает путь в 20 метров. Естественно, что в такой ситуации не всегда даже опытный водитель примет правильное решение. Так что же говорить о новичке?!</p>
+                                <p>В таком случае рекомендуется потренироваться на автотренажере. Он эмулирует реальную ситуацию на дороге и способствует приобретению навыков вождения в более спокойной обстановке.</p>
+                                <p>Конструкция автотренажера предполагает наличие тех же основных составляющих элементов, что и в обычном авто:</p>
+                                    <li>водительское место;</li>
+                                    <li>элементы управления;</li>
+                                    <li>приборы контроля и безопасности.</li>
+                                <p>Программное обеспечение в автотренажере включает в себя различные упражнения, имитирующие реальные ситуации на дороге. Совместно с качественной графикой автотренажер позволяет ученику как можно лучше развить навыки вождения автомобиля и моторику движений.</p>  
+                                <p>Немаловажным преимуществом автотренажера является и отсутствие психологического напряжения. «Водитель» понимает, что на самом деле ему ничто не грозит, и уверенно, без воздействия внешних факторов, управляет ситуацией. Потом, когда он садится в настоящий автомобиль, ему легче им управлять.</p>
+                                </details>    
+                                <details>
+                                    <summary>
+                                        <b>Какие нужны документы?</b>
+                                    </summary>
+                                    <br><p>Для начала обучения только паспорт. В процессе обучения нужно будет принести 3 фотографии 3*4 и медицинскую справку.</p>
+                                
+                                    <p>Для сдачи экзамена в ГИБДД понадобится свидетельство об окончании обучения, водительская карточка, мед справка, заявление в ГАИ.</p>
+                                
+                                <p>Мы помогаем оформить все необходимые документы.</p>
+                                </details> 
+                                <details>
+                                    <summary>
+                                        <b>Могу я приостановить обучение, а потом продолжить?</b>
+                                    </summary>
+                                    <br><p>Да, Вы можете прервать свое обучение в любой момент. Если Ваш перерыв будет составлять более года от начала заключения договора до окончания обучения, то администрация вправе пересчитать сумму дальнейшего обучения, исходя из цен на текущий момент.</p>
+                                </details>
+                                <details>
+                                    <summary>
+                                        <b>Обучаете ли вы только на автоматической коробке передач?</b>
+                                    </summary>
+                                        <br><p>У нас есть пакет обучения только на автоматической коробке передач. Вы можете выбрать обучение по этому пакету. Экзамен в ГИБДД будет так же на автоматической коробке передач.</p>
+                                </details>      
+                                <details>
+                                    <summary>
+                                        <b>График обучения</b>
+                                    </summary>
+                                        <br><br>Режим работы: офис-менеджеры 10:00-18:00
+                                <br>Лекции вечерние 19:00-21:00
+                                <br>Лекции дневные 14:00-16:00
+                                <br>Группа выходного дня 10:00-12:00
+                                            <br>Вождение: без выходных
+                            </details>
+               </div>               
+            </section>
+           <section>
+               <div class="map__map">
+                   <div class="text_map">
+                       <h2><p>Где мы находимся</p></h2>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A456b2387247ada9cb51ec0f0251ed9341f520b04b26009d97805c07e86929724&amp;source=constructor" class="map" width="1280" height="400" frameborder="0"></iframe>
+                   </div>
+               </div>
+            </section>
+            <section>
+                <div class="kolonki_text">
+                    <table width="100%" cellpadding="0" cellspacing=0>
+                        <tr>
+                             <td align="center"><b>12</b></td>
+                             <td align="center"><b>17 000</b></td>
+                             <td align="center"><b>2 000 ₽</b></td>
+                        </tr>
+                         <tr>
+                             <td align="center">________________________________________</td>
+                             <td align="center">_______________________________________</td>
+                             <td align="center">______________________________________</td>
+                        </tr>
+                         <tr>
+                             <td align="center"><b>12 лет обучения. Наши ученики легко</b></td>
+                             <td align="center"><b>17 000 учеников, которые успешно </b></td>
+                             <td align="center"><b>2 000 ₽ стоимость первого взноса</b></td>
+                        </tr>
+                               <tr>
+                             <td align="center"><b>сдают экзамен в ГИБДД</b></td>
+                             <td align="center"><b>получили водительские права</b></td>
+                             <td align="center"><b>за обучение в рассрочку</b></td>
+                        </tr>
+                       </table>
+                </div>
+            </section>
+   </main>
+   <footer class="footer__list" id="footer__list">
+    <p class="footer__name">
+        Адреса наших филиалов и контакты
+        </p>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <p class="number">На Ленина:<br>проспект Ленина, 77<br>8 (3842) 903-601<br>contact@autoklass42.ru</p>
+          </div>
+            <div class="col-sm">
+                <ul class="footer__main">
+                    <li class="footer__contact">Режим работы школ: ежедневно с 10.00 до 18.00.</li>
+                    <li class="footer__contact">Лекции вечерние 19:00-21:00</li>
+                    <li class="footer__contact">Лекции дневные 14:00-16:00</li>
+                    <li class="footer__contact">Группа выходного дня 10:00-12:00</li>
+                    <li class="footer__contact">Вождение: без выходных</li>
+                    <li class="footer__contact">Контактный номер:<br>+7 904 992-13-77</li>
+                </ul>
+                <div class="last2">
+                    <a href="https://vk.com/club19525412" target="_blank" class="social2"><i class="fa fa-vk"></i></a>
+                    <a href="https://www.instagram.com/autoklass42/" target="_blank" class="social2"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+          <div class="col-sm">
+            <p class="number">На Красноармейской:<br>улица Красноармейская, 130<br>8 (3842) 369-555<br>contact@autoklass42.ru</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
